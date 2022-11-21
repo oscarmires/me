@@ -1,0 +1,35 @@
+$accent-color: #0d3b66;
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.7rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin-top: 1.7rem;
+    margin-bottom: 1.4rem;
+}
+
+h3 {
+    font-size: 1.9rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
