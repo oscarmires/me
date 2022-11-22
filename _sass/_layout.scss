@@ -1,9 +1,24 @@
-.wrapper {
+header {
+    height: 80px;
+}
+
+// Home
+.home {
     max-width: 700px;
     padding: 20px;
     margin: 0 auto;
 }
 
-header {
-    height: 80px;
+.media-icons {
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .bi {
+        font-size: 1.3rem;
+    }
+
+    .bi-envelope-fill {
+        margin-left: 3px;
+    }
 }
+

@@ -2,4 +2,12 @@
 layout: default
 ---
 
-<div class="home">{{ content }}</div>
+<div class="home">
+    <h1>Oscar Miranda</h1>
+    <div class="media-icons">
+        <a href="https://twitter.com/{{site.twitter_username}}" class="no-style"><i class="bi bi-twitter"></i></a>
+        <a href="https://github.com/{{site.github_username}}" class="no-style"><i class="bi bi-github"></i></a>
+        <a href="mailto:{{site.email}}" class="no-style"><i class="bi bi-envelope-fill"></i></i></a>
+    </div>
+    {{ content }}
+</div>
