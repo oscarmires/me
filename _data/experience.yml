@@ -1,4 +1,18 @@
-- title: Production Engineering Fellow
-- organization: Meta (Via Major League Hacking)
-- dates: June 2022 - August 2022
-- description: 
+- title: Video Analytics Research Stay
+  organization: Tec de Monterrey
+  dates: February 2022 - December 2022
+  description: >-
+    One-semester research project related to dense-captioning events
+    in videos using deep learning models. Involved writing a research
+    proposal and a technical document, as well as modifying and testing
+    a transformer model with PyTorch.
+
+- title: Production Engineering Fellowship
+  organization: Meta (Via Major League Hacking)
+  dates: June 2022 - August 2022
+  description: >-
+    12-week internship with hands-on Production Engineering experience
+    including tasks like CI/CD, monitoring, alerting, visualization
+    and development of an open-source portfolio website template
+    with Flask.
+

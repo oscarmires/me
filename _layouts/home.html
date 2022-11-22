@@ -9,5 +9,18 @@ layout: default
         <a href="https://github.com/{{site.github_username}}" class="no-style"><i class="bi bi-github"></i></a>
         <a href="mailto:{{site.email}}" class="no-style"><i class="bi bi-envelope-fill"></i></i></a>
     </div>
-    {{ content }}
+    <p><strong>Oscar Miranda Escalante</strong> is a Computer Science student at Tec de Monterrey. His areas of interest include web development, machine learning and business process automation.</p>
+    <!-- {{ content }} -->
+
+    <h2>Experience</h2>
+    {% for item in site.data.experience %}
+        <ul class="experience-list">
+            <li>
+                <h3>{{ item.title }}</h3>
+                <span class="experience-org">{{ item.organization }}</span>
+                <span class="experience-date">{{ item.dates }}</span>
+                <p class="experience-description">{{ item.description }}</p>
+            </li>
+        </ul>
+    {% endfor %}
 </div>

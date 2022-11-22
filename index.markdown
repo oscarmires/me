@@ -3,9 +3,7 @@ layout: home
 title: Home
 ---
 
-**Oscar Miranda Escalante** is a computer science student at Tec de Monterrey. His areas of interest include web development, machine learning and business process automation.
-
----
+**Oscar Miranda Escalante** is a Computer Science student at Tec de Monterrey. His areas of interest include web development, machine learning and business process automation.
 
 ## Experience
 

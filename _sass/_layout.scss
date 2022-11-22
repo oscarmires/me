@@ -5,7 +5,7 @@ header {
 // Home
 .home {
     max-width: 700px;
-    padding: 20px;
+    padding: 50px 20px;
     margin: 0 auto;
 }
 
@@ -22,3 +22,29 @@ header {
     }
 }
 
+// Experience item
+.experience-list {
+    span {
+        margin-bottom: 0.6rem;
+        line-height: 1.2rem;
+    }
+}
+
+.experience-org {
+    display: block;
+}
+
+.experience-date {
+    background-color: $accent-color;
+    color: white;
+    padding: 3px 7px;
+    font-size: 0.9rem;
+    font-style: italic;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.experience-description {
+    margin-top: 0.7rem;
+}
